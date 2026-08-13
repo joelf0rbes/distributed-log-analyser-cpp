@@ -84,4 +84,39 @@ For example:
 ```
 
 The client will send every ``.json``, ``.xml``, ``.txt`` file found (recursively) under the given folder, and print a summary once the server responds.
-<h2>Sample Output</h2>
+
+## Sample Output
+
+```
+Summary:
+
+Transfer Metrics:
+Total Files Received: 3
+Total Transfer Time: 196.32 s
+Average Transfer Time per File: 65.44 s
+Average Log File Size: 56287.08 KB
+Average Transfer Speed: 0.84 MB/s
+Error Rate: 20.01%
+Warning Rate: 20.01%
+
+Log Levels:
+CRITICAL: 599595
+DEBUG: 599680
+ERROR: 600337
+INFO: 600123
+WARN: 600265
+
+Log Attempts by IP:
+127.0.0.1: 3000000 entries
+
+Log Attempts by IP and Level:
+127.0.0.1:
+  CRITICAL: 599595
+  DEBUG: 599680
+  ERROR: 600337
+  INFO: 600123
+  WARN: 600265
+END_OF_SUMMARY
+```
+
+
