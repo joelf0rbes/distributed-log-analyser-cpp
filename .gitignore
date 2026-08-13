@@ -1,0 +1,19 @@
+# Compiled binaries
+# client
+# server
+*.o
+
+# Build artifacts
+build/
+cmake/client
+cmake/server
+
+# Runtime output
+received_logs/
+summary.txt
+
+# OS clutter
+.DS_Store
+
+# Editor config (machine-specific paths, not portable)
+.vscode/
